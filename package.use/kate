@@ -1,0 +1,4 @@
+ 
+# required by kde-apps/kate-16.12.1::gentoo[addons]
+# required by kate (argument)
+>=dev-libs/libgit2-0.24.2 threads

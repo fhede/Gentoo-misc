@@ -1,0 +1,7 @@
+media-tv/kodi  bluray cec dvd vdpau alsa -udisks -lvm2 -samba -bluetooth 
+
+
+>=media-video/ffmpeg-2.8.8 alsa vdpau x264 bluray
+
+
+>=dev-lang/python-2.7.12:2.7 sqlite

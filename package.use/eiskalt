@@ -1,0 +1,2 @@
+ 
+net-p2p/eiskaltdcpp -dht -json -lua -libnotify -cli  qt5 linguas_sv_SE

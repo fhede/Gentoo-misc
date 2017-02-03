@@ -1,0 +1,6 @@
+media-video/smplayer qt5
+
+
+# required by smplayer (argument)
+>=dev-qt/qtsingleapplication-2.6.1_p20150629 qt5
+>=dev-qt/qtlockedfile-2.4.1_p20150629 qt5

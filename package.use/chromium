@@ -1,0 +1,6 @@
+www-client/chromium -gnome -gnome-keyring -pulseaudio -cups gtk3
+
+
+>=sys-libs/zlib-1.2.8-r1 minizip
+
+>=media-libs/libvpx-1.6.0-r1 svc

@@ -1,0 +1,43 @@
+kde-plasma/plasma-meta -bluetooth display-manager -grub -gtk -handbook networkmanager -pam -plymouth -pulseaudio sddm -sdk -wallpapers
+
+
+
+>=dev-qt/qtgui-5.7.1 egl
+>=dev-qt/qtwayland-5.7.1 egl
+
+
+>=dev-qt/qtdeclarative-4.8.7:4 qt3support
+>=dev-qt/qtgui-4.8.7:4 qt3support
+>=dev-qt/qtopengl-4.8.7:4 qt3support
+>=dev-qt/qtcore-4.8.7-r2:4 qt3support
+>=dev-qt/qtsql-4.8.7-r1:4 qt3support
+
+kde-plasma/powerdevil -wireless
+kde-plasma/plasma-workspace -calendar
+kde-apps/kio-extras -sftp
+kde-frameworks/kded -man
+kde-frameworks/kinit -man
+kde-frameworks/kio -kwallet
+
+net-libs/libssh -sftp
+
+
+
+# required by dev-qt/qtgui-5.7.1::gentoo[xcb]
+# required by kde-frameworks/kglobalaccel-5.30.0::gentoo
+# required by kde-plasma/kscreenlocker-5.9.0::gentoo
+# required by kde-plasma/kwin-5.9.0::gentoo
+# required by kde-plasma/plasma-workspace-5.9.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.0::gentoo
+# required by @preserved-rebuild (argument)
+>=x11-libs/libxcb-1.12-r2 xkb
+
+
+# required by dev-qt/qtcore-5.7.1-r1::gentoo
+# required by kde-frameworks/kglobalaccel-5.30.0::gentoo
+# required by kde-plasma/kscreenlocker-5.9.0::gentoo
+# required by kde-plasma/kwin-5.9.0::gentoo
+# required by kde-plasma/plasma-workspace-5.9.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.0::gentoo
+# required by @preserved-rebuild (argument)
+>=dev-libs/libpcre-8.40 pcre16

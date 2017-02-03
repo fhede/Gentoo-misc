@@ -1,0 +1,1 @@
+net-misc/networkmanager  -wext -wifi -ppp -modemmanager -bluetooth -connection-sharing -systemd -dhcpcd consolekit dhclient
