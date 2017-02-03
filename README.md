@@ -1,3 +1,3 @@
 # Gentoo-misc
 
-My ebuilds and configs for gentoo
+Ebuilds and configs for gentoo linux
