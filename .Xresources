@@ -1,0 +1,43 @@
+
+URxvt*saveLines: 20000
+
+URxvt*geometry: 98x26
+
+URxvt*font: xft:Terminus:regular=true:pixelsize=18
+
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/chromium
+URxvt.matcher.button
+URxvt*scrollBar: false
+
+URxvt*scrollBar_right: false
+URxvt*scrollstyle: rxvt
+
+URxvt*letterSpace: -1
+
+URxvt.background: #1f1f1f
+URxvt.foreground: #9a9b9b
+!Black
+URxvt.color0: #454545
+URxvt.color8: #787878
+!Red
+URxvt.color1: #ad3956
+URxvt.color9: #e38aa2
+!Green
+URxvt.color2: #E5DCB2
+URxvt.color10: #CCC399
+!Yellow
+URxvt.color3: #a88e42
+URxvt.color11: #e0cc8f
+!Blue
+URxvt.color4: #4863b5
+URxvt.color12: #98adeb
+!Magenta
+URxvt.color5: #9144ab
+URxvt.color13: #ce8fe3
+!Cyan
+URxvt.color6: #38947d
+URxvt.color14: #8ed4c4
+!White
+URxvt.color7: #a3a3a3
+URxvt.color15: #f2f2f2
