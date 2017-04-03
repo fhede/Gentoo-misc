@@ -18,10 +18,7 @@ IUSE=""
 KEYWORDS="~amd64"
 
 RDEPEND="
-    dev-qt/qtconcurrent:5
     dev-qt/qtcore:5
-    dev-qt/qtgui:5
-    dev-qt/qtsvg:5
     dev-qt/qtwidgets:5
     "
     
