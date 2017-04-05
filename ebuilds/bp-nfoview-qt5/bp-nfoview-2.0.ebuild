@@ -17,20 +17,24 @@ SLOT="0"
 IUSE=""
 KEYWORDS="~amd64"
 
+S="${WORKDIR}/bp-nfoview-${PV}"
+
 RDEPEND="
-    dev-qt/qtcore:5
     dev-qt/qtwidgets:5
+	dev-qt/qtgui:5
+	dev-qt/qtcore:5
     "
     
 DEPEND="${RDEPEND}
     dev-vcs/git
     dev-util/cmake
-    virtual/pkgconfig"
+    virtual/pkgconfig
+    ${RDEPEND}"
 	
 src_configure() {
 	local mycmakeargs=(
-		-DUSE_QT5=ON
 		-DCMAKE_INSTALL_PREFIX=/usr
+		-DUSE_QT5=ON 
 )
 
 	cmake-utils_src_configure
