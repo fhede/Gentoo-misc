@@ -1,0 +1,1 @@
+USE="-gnome -kde -minimal -qt4 -systemd bindist mmx sse sse2 dbus jpeg lock session startup-notification thunar udev X"
